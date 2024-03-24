@@ -3,7 +3,7 @@ set -eu
 
 lab00_ref="starter/lab00-oski"
 
-git fetch starter
+git fetch origin
 
 lab00_start_ref="$(git rev-parse "${lab00_ref}~1")"
 
